@@ -24,7 +24,7 @@ const Dashboard = () => {
 
     const fetchData = async () => {
         try {
-            const response = await fetch('http://localhost:3000/api/alldata');
+            const response = await fetch('https://listed-board-murex.vercel.app//api/alldata');
             const responseData = await response.json();
            
             setData(responseData);
