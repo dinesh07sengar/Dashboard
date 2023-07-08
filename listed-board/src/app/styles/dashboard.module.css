@@ -1,0 +1,264 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    width: 280px;
+    color: white;
+    margin-left: 2%;
+    margin-top: 2%;
+
+    border-radius: 30px;
+
+}
+.box>div>div{
+    display: flex;
+
+}
+.contact{
+    margin-bottom: 25%;
+    margin-left: 19%;
+    font-weight: 100;
+}
+.bord{
+    /* margin: 0; */
+    margin-left: 20%;
+    margin-top: 13%; 
+    margin-bottom: 10%;
+}
+.dash>h1{
+    margin: 0;
+    margin-left: 5%;
+    font-size: 16px;
+    font-weight: bold;
+}
+.dash{
+    margin-left:19%;
+}
+.fake h1{
+    margin: 0;
+    margin-left: 5%;
+    font-size: 16px;
+    font-weight: 200;
+}
+.fake{
+    margin-left: 19%;
+    margin-top: 10%;
+}
+
+
+.boxl {
+    background-color:#F5F5F5;
+    color: black;
+    width: 88%;
+    padding: 1.5% 5%
+    
+
+}
+.navbar div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(99, 99, 232); */
+    
+}
+.boxl>nav h1{
+    margin: auto;
+    padding: 0; 
+}
+
+.input_container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+.input_container>input{
+    width: 180px;
+    height: 10px;
+    margin: auto;
+    padding: 5% 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    margin-left: 2px;
+   
+}
+
+.search_icon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+.bell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-right: 40px;
+}
+.avatar{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+}
+.topcontainer{
+    display: flex;
+
+    justify-content: space-between;
+    margin-top: 2%;
+    
+}
+.topcontainer>div{
+    width: 220px;
+    height: 120px;
+    border-radius: 20px;
+
+}
+.topcontainer h2{
+    margin: 0;
+    font-size:x-large;
+    margin-left: 10%;
+    
+    /* padding: 0; */
+}
+.topcontainer p{
+    margin: 0;
+    margin-top: 15%;
+    margin-left: 10%;
+    /* padding: 0; */
+}
+.icons{
+    float: right;
+    font-size: 25px;
+    margin-top:5%;
+    margin-right: 6%;
+}
+.chartdiv{
+    
+   height: 370px;
+    padding:  10px 50px 10px 20px;
+    border-radius: 20px;
+    background-color:white;
+    margin-top: 30px;
+}
+.chartdiv h3{
+    margin: 0;
+    margin: 2% 0 0 2%;
+    padding: 0;
+    font-size: x-large;
+}
+.chartdiv select{
+    
+    margin-left: 2%;
+    font-size: 12px;
+    font-weight: 200;
+   
+}
+
+.chartdiv>div{
+    height: 300px;
+}
+.chartdiv canvas{
+    width: 100%;
+}
+
+.piediv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.piediv>div{
+    width: 480px;
+    height: 256px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.topcom{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.topcom{
+    padding-left: 100px;
+    padding-right: 50px;
+}
+.piediv>div>div>div{
+    padding-top: 20px;
+    
+}
+
+.meethead{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 25px 25px 50px;
+}
+.schedulehead{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.9px;
+}
+.seeall{
+    font-size: 13px;
+    font-weight: 200px;
+    margin: auto 0px;
+}
+.firstmeet{
+    margin-left: 10%;
+    padding-left: 1%;
+    border-left-style: solid;
+    border-left-color: #9BDD7C;
+}
+.firstmeet>h1{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 16.8px;
+
+}
+.firstmeet>p{
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.secondmeet{
+    margin-left: 10%;
+    margin-top: 3%;
+    padding-left: 1%;
+    border-left-style: solid;
+    border-left-color: #6972C3;
+
+}
+.secondmeet>h1{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 16.8px;
+
+}
+.secondmeet>p{
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 400;
+
+}

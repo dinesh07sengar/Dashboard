@@ -1,0 +1,51 @@
+
+    {
+        "totalrevenue": "2,129,430",
+        "like": "1,520",
+        "transection": "9,721",
+        "user": 892,
+        "data": [
+            {
+                "month": "jan-fab",
+                "piedata":{
+                    "lab":["Gadget","Manga","Ps6"],
+                    "data":[55,20,25]
+                },
+                "userdata": [
+                    40,
+                    125,
+                    320,
+                    78,
+                    220
+                ]
+            },
+            {
+                "month": "mar-april",
+                "piedata":{
+                    "lab":["Gojo Saturo","Kakashi Hatake","Monkey D.luffy"],
+                    "data":[45,30,25]
+                },
+                "userdata": [
+                    
+                    345,
+                    120,
+                    278,
+                    80
+                ]
+            },
+            {
+                "month": "may-june",
+                "piedata":{
+                    "lab":[" 55% Basic Tees"," 31% Custom Short Pants"," 14% Super Hoddies"],
+                    "data":[55,31,14]
+                },
+                "userdata": [
+                    30,
+                    225,
+                    320,
+                    178,
+                    280
+                ]
+            }
+        ]
+    }
